@@ -1,1 +1,17 @@
-import React from "react";
+.button {
+    width: 90px;
+    height: 35px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+
+    font-family: "Maven Pro", sans-serif;
+    font-size: 18px;
+
+    text-rendering: unset;
+}
+.button:hover {
+   scale: 1.1;
+}

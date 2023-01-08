@@ -1,0 +1,23 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.skillMain {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo img {
+    width: 150px;
+    background: none;
+}
+.skillProp {
+    font-size: 18px;
+}
