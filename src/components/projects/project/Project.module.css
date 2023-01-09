@@ -1,0 +1,39 @@
+.projectCont {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgCont {
+    align-items: center;
+}
+
+.imgCont img {
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.url {
+
+}
+
+.imgCont img:hover {
+
+    opacity: 0.7;
+}
+
+.title {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+}
+
+.prescription {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 18px;
+}

@@ -1,5 +1,6 @@
 .navbar {
-
+    padding-right: 10px;
+    scroll-behavior: smooth;
 }
 .navbar a {
     text-decoration: none;

@@ -11,7 +11,7 @@ export const Main = (props: MainPropsType) => {
         <div className={s.mainBlock} id={props.id}>
             <div className={s.container}>
                 <div className={s.nameBlock}>
-                    <h1>Vadim Karpenko</h1>
+                    <div className={s.name}>Vadim Karpenko</div>
                     <p>React front-end developer</p>
                 </div>
                 <div className={s.infoPhoto}>

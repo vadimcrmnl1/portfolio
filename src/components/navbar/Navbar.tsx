@@ -3,17 +3,14 @@ import s from './Navbar.module.css'
 import {Button} from "@material-ui/core";
 
 
-
-
 export const Navbar = () => {
     return (
 
         <div className={s.navbar}>
-            <a href={'#main'}><Button style={{color: 'white'}} size={"large"}>Main</Button></a>
-            <a href={'#skills'}><Button style={{color: 'white'}} size={"large"}>Skills</Button></a>
-            <a href={'#projects'}><Button style={{color: 'white'}} size={"large"}>Projects</Button></a>
-           <Button style={{color: 'white'}} size={"large"}>About</Button>
-           <Button style={{color: 'white'}} size={"large"}>Contacts</Button>
+            <a href={'#main'}><Button style={{color: 'white'}} size={"small"}>Main</Button></a>
+            <a href={'#skills'}><Button style={{color: 'white'}} size={"small"}>Skills</Button></a>
+            <a href={'#projects'}><Button style={{color: 'white'}} size={"small"}>Projects</Button></a>
+            <a href={'#contacts'}><Button style={{color: 'white'}} size={"small"}>Contacts</Button></a>
         </div>
     )
 }
